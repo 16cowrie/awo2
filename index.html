@@ -28,32 +28,11 @@ body{
   font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
 }
 
-nav{
-  display:flex;
-  justify-content:center;
-  gap:12px;
-  flex-wrap:wrap;
-  padding:18px 12px;
-}
-nav a{
-  background:var(--soft);
-  padding:10px 16px;
-  border-radius:var(--radius);
-  color:var(--ink);
-  text-decoration:none;
-  font-size:.9rem;
-  border:1px solid rgba(255,255,255,.08);
-  transition:.25s;
-}
-nav a:hover{
-  border-color:var(--accent);
-  box-shadow:0 0 12px var(--ring);
-}
-
 .hero{
   text-align:center;
   padding:50px 20px 30px;
 }
+
 .hero img{
   width:85px;
   height:auto;
@@ -62,6 +41,7 @@ nav a:hover{
   box-shadow:0 0 20px var(--ring);
   margin-bottom:14px;
 }
+
 .hero h1{
   margin:0;
   font-size:2rem;
@@ -76,6 +56,7 @@ nav a:hover{
   border:1px solid rgba(255,255,255,.08);
   line-height:1.6;
 }
+
 .section h2{
   color:var(--accent);
   margin-top:0;
@@ -85,6 +66,7 @@ nav a:hover{
   margin-top:18px;
   padding-left:20px;
 }
+
 .section li{
   margin-bottom:14px;
 }
@@ -99,19 +81,11 @@ footer{
 
 <body>
 
-<!-- TOP NAV -->
-<nav>
-  <a href="#">Mission</a>
-  <a href="#">Divination</a>
-  <a href="#">Merindilogun</a>
-  <a href="#">Orunmila</a>
-  <a href="#">Initiations</a>
-  <a href="#">SGI Application</a>
-</nav>
-
 <!-- HERO -->
 <section class="hero">
-  <img src="SwamiG.gif" alt="SwamiG Institute">
+  <a href="https://swamiginstitute.com">
+    <img src="SwamiG.gif" alt="SwamiG Institute">
+  </a>
   <h1>Merindilogun — Module 2</h1>
   <p style="color:var(--muted)">Seniority • Eldership • Odu Orientation</p>
 </section>
