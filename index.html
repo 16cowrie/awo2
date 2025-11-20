@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SwamiG Institute — Modules of Enlightenment for the Diaspora</title>
+<meta name="theme-color" content="#0b0b0f" />
+<meta name="color-scheme" content="dark" />
+
+<style>
+:root{
+  --bg:#0b0b0f;
+  --ink:#f3f4f6;
+  --muted:#9ca3af;
+  --card:#15151c;
+  --soft:#1b1b25;
+  --accent:#bb66ff;
+  --accent2:#66ffb2;
+  --ring:rgba(187,102,255,.35);
+  --radius:18px;
+  --max:1120px;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* TOP CARDS */
+nav{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  padding:18px 12px;
+}
+
+nav a{
+  background:var(--soft);
+  padding:10px 16px;
+  border-radius:var(--radius);
+  color:var(--ink);
+  text-decoration:none;
+  font-size:.9rem;
+  border:1px solid rgba(255,255,255,.08);
+  transition:.25s;
+}
+
+nav a:hover{
+  border-color:var(--accent);
+  box-shadow:0 0 12px var(--ring);
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:60px 20px 40px;
+}
+
+.hero img{
+  width:95px;
+  height:auto;
+  border-radius:50%;
+  border:2px solid var(--accent);
+  box-shadow:0 0 25px var(--ring);
+  margin-bottom:14px;
+}
+
+.hero h1{
+  margin:0;
+  font-size:2rem;
+  font-weight:700;
+}
+
+.hero p{
+  margin:6px 0;
+  color:var(--muted);
+}
+
+/* MODULE CARDS */
+.grid{
+  max-width:var(--max);
+  margin:40px auto;
+  padding:0 18px;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+  gap:22px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:22px;
+  border:1px solid rgba(255,255,255,.08);
+  transition:.25s;
+}
+
+.card:hover{
+  border-color:var(--accent);
+  box-shadow:0 0 16px var(--ring);
+}
+
+.card h3{
+  margin-top:0;
+  color:var(--accent);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px 20px 20px;
+  color:rgba(255,255,255,.18);
+  font-size:.8rem;
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOP NAV -->
+<nav>
+  <a href="#">Mission</a>
+  <a href="#">Divination</a>
+  <a href="#">Warriors</a>
+  <a href="#">Orunmila</a>
+  <a href="#">Initiations</a>
+  <a href="#">SGI Application</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <img src="SwamiG.gif" alt="SwamiG Institute Logo" />
+  <h1>SwamiG Institute</h1>
+  <p>Modules of Enlightenment for the Diaspora</p>
+  <p style="color:var(--accent2)">Ifá • Ìṣẹ̀ṣe • Orisha | Orientation • Divination • Initiation</p>
+</section>
+
+<!-- MODULE CARDS -->
+<section class="grid">
+
+  <div class="card">
+    <h3>Iyawo Track</h3>
+    <p>Self-guided and supervised orientation for new initiates entering structured SGI spiritual development.</p>
+  </div>
+
+  <div class="card">
+    <h3>Merindilogun Training</h3>
+    <p>Learn seniority, casting protocol, interpretation, and daily log practice for certification.</p>
+  </div>
+
+  <div class="card">
+    <h3>Obi-Abata Mastery</h3>
+    <p>Modern framework of Obi divination using 4-shell and 8-cast discipline.</p>
+  </div>
+
+  <div class="card">
+    <h3>Orisha-Pele</h3>
+    <p>Binary Orisha-based divination tool for immediate clarity, orientation, and decision-making.</p>
+  </div>
+
+  <div class="card">
+    <h3>SGI Applications</h3>
+    <p>Begin your transformation. Submit your application or continue your existing module path.</p>
+  </div>
+
+  <div class="card">
+    <h3>Temple Lineage</h3>
+    <p>Standing on the shoulders of enlightened ancestors and restoring Diaspora priesthood structure.</p>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Governed by Irosun-Otura
+</footer>
+
+</body>
+</html>
